@@ -164,7 +164,8 @@ $(document).ready(function(){
     }
     function itismobile(){
         $('video').attr('controls','controls');//Добавляем к тегу видел контролы
-        $('#video').get(0).play();//Автозапуск
+        $('#video').get(0).play();
+        //Автозапуск
     }
 
 });

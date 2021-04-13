@@ -164,9 +164,12 @@ $(document).ready(function(){
     }
     function itismobile(){
         $('video').attr('controls','controls');//Добавляем к тегу видел контролы
-        $('#video').get(0).play();
+        $('video').attr('poster', 'img/banner_3.jpg');
+        // $('#video').get(0).play();
         //Автозапуск
     }
+
+    // if (isMobile) { $(".video").find('video').attr('poster', 'img/banner_3.jpg'); }
 
 });
 

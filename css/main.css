@@ -1646,6 +1646,7 @@ p {
 }
 
 .form-title {
+  font-size: 32px;
   text-align: center;
   /*color: #FFFFFF;*/
   margin-bottom: 35px;
@@ -1661,6 +1662,9 @@ p {
 @media(max-width: 767px) {
   .form {
     width: 100%;
+  }
+  .form-title {
+    font-size: 22px;
   }
 }
 
